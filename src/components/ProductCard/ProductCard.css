@@ -1,0 +1,46 @@
+.CardContainer {
+    width: 30%;
+    min-width: 320px;
+    height: 350px;
+    box-shadow: 2px 2px 12px #b48766;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.ImageContainer {
+    width: 100%;
+    background-color: #f6e3ba;
+}
+
+.Image {
+    line-height: 140px;
+    text-align: center;
+    margin: auto 0;
+}
+
+.InfoContainer {
+    width: 100%;
+    text-align: center;
+}
+
+.Button {
+    margin: 20px 0;
+    padding: 10px 35px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 7px #ceaa7b;
+  }
+  
+  .Button:hover {background-color: #2d2f37}
+  
+  .Button:active {
+    background-color: #2d2f37;
+    box-shadow: 0 5px #8a683e;
+    transform: translateY(4px);
+  }
