@@ -1,0 +1,13 @@
+.AdContainer {
+    width: 30%;
+    min-width: 320px;
+    height: 350px;
+    box-shadow: 2px 2px 12px #b48766;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.Image {
+    width: 100%;
+    height: auto;
+}
