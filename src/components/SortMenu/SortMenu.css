@@ -1,0 +1,12 @@
+.Container {
+    margin: 130px 0 0 20px;
+}
+
+.Title {
+    font-size: 18px;
+}
+
+.Option {
+    display: inline-block;
+    margin-left: 20px;
+}
