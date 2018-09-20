@@ -16,5 +16,5 @@ export const formatDate = (date) => {
     }
   
     // return full date if passed time is > week (7 days)
-    return date;
+    return ('0' + dateObject.getDate()).slice(-2) + '.' + ('0' + (dateObject.getMonth() + 1)).slice(-2) + '.' + dateObject.getFullYear();;
 }
