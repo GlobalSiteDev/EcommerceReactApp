@@ -1,13 +1,22 @@
 .AdContainer {
-    width: 30%;
+    width: 20%;
     min-width: 320px;
     height: 350px;
     box-shadow: 2px 2px 12px #b48766;
     margin: 10px 0;
-    border-radius: 5px;
+    transition: .2s;
+}
+
+.AdContainer:hover {
+    transform: translateY(-0.3em);
 }
 
 .Image {
     width: 100%;
     height: auto;
+    border-radius: 5px;
+}
+
+.Text {
+    text-align: center;
 }
