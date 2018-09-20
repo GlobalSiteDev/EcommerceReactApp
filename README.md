@@ -24,11 +24,11 @@ npm install
 npm run build
 npm start
 ```
-#####To nut rebuild each time in development:
+#####To not rebuild each time in development:
 ```
 npm start
 ```
-in another command prompt
+in another command prompt/terminal
 ```
 npm run client
 ```
