@@ -1,6 +1,8 @@
 import React from 'react';
 
 import classes from './ProductCard.css';
+import { formatDate } from '../../utils/formatDate';
+import { formatPrice } from '../../utils/formatPrice';
 
 const ProductCard = (props) => (
     <div className={classes.CardContainer}>
@@ -8,8 +10,8 @@ const ProductCard = (props) => (
             <div className={classes.Image} style={{ fontSize: props.size }}>{props.face}</div>
         </div>
         <div className={classes.InfoContainer}>
-            <p>Added ... days ago</p>
-            <p>Price: ...</p>
+            <p>Added {formatDate(props.date)}</p>
+            <p>Price: ${formatPrice(props.price)}</p>
             <button className={classes.Button}>Buy!</button>
         </div>
     </div>

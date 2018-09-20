@@ -1,21 +1,27 @@
 .CardContainer {
-    width: 30%;
+    width: 20%;
     min-width: 320px;
     height: 350px;
     box-shadow: 2px 2px 12px #b48766;
     margin: 10px 0;
     border-radius: 5px;
+    transition: .2s;
+}
+
+.CardContainer:hover {
+    transform: translateY(-0.3em);
 }
 
 .ImageContainer {
     width: 100%;
     background-color: #f6e3ba;
+    height: 155px;
 }
 
 .Image {
-    line-height: 140px;
     text-align: center;
     margin: auto 0;
+    padding: 40px 0;
 }
 
 .InfoContainer {
